@@ -1,0 +1,100 @@
+/* paginaPrincipal.css */
+
+/* Estilos para el contenedor cuadrado */
+.contenedorPaginaPrincipal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 300px; /* Ancho del cuadro */
+    margin: 0 auto; /* Centrar horizontalmente */
+    border: 1px solid #ccc; /* Borde del cuadro */
+    border-radius: 10px; /* Borde redondeado */
+    padding: 20px; /* Espaciado interior */
+    background-color: #fff; /* Fondo blanco */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* Sombra */
+    font-family: Arial, sans-serif; /* Fuente */
+  }
+  
+  /* Estilos para el título */
+  .Titulo h1 {
+    font-size: 24px;
+    margin: 0;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 30px;
+    text-align: center;
+    border-radius: 10px;
+  }
+  
+  /* Estilos para las opciones de navegación */
+  .opciones {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .opciones nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .opciones nav button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 2px 10px;
+  }
+  
+  .opciones nav button:hover {
+    opacity: 0.8;
+  }
+  
+  /* Estilos para el formulario */
+  .nativo {
+    text-align: center;
+    margin-top: 20px;
+    
+  }
+  
+  .nativo form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .nativo label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .nativo input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .nativo button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 10px 0;
+  }
+  
+  .nativo button:hover {
+    opacity: 0.8;
+  }
+  
+ 
+
+  

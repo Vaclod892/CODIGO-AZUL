@@ -1,0 +1,66 @@
+/* crudDePacientes.css */
+
+/* Estilos para el encabezado */
+.Paciente {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 35px;
+    text-align: center;
+    border-radius: 10px;
+    width: 370px;
+    margin: auto; 
+    
+  }
+  
+  .Paciente h1 {
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  /* Estilos para el formulario */
+  .Pacientes {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    background-color: #fff;
+    border-radius: 10px;
+  }
+  
+  .Pacientes label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .Pacientes input[type="text"],
+  .Pacientes input[type="date"],
+  .Pacientes select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .Pacientes button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  .Pacientes button:last-child {
+    background-color: #ccc;
+    color: #333;
+  }
+  
+  .Pacientes button:hover {
+    opacity: 0.8;
+  }
+  

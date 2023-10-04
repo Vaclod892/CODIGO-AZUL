@@ -1,0 +1,61 @@
+/* crudDeLlamados.css */
+
+/* Estilos para el contenedor cuadrado */
+.contenedorLlamados {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 300px; /* Ancho del cuadrado */
+    height: 500px; /* Alto del cuadrado */
+    margin: 0 auto; /* Centrar horizontalmente */
+    border: 1px solid #ccc; /* Borde del cuadrado */
+    border-radius: 10px; /* Borde redondeado */
+    padding: 20px; /* Espaciado interior */
+    background-color: #fff; /* Fondo blanco */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* Sombra */
+  }
+  
+  /* Estilos para el encabezado */
+  .Llamados h1 {
+    font-size: 24px;
+    margin: 0;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 35px;
+    text-align: center;
+    border-radius: 10px; /* Borde redondeado */
+  }
+  
+  /* Estilos para los botones */
+  .botones {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .botones button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 0 10px;
+  }
+  
+  .botones button:last-child {
+    background-color: #dc3545;
+  }
+  
+  .botones button:hover {
+    opacity: 0.8;
+  }
+  
+  .FechaDeEmision{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+  }

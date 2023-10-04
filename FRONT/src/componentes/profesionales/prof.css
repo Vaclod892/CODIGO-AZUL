@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    background-color: #e3e3f5;
+    min-height: 100vh;
+}
+
+.busqueda button{
+    background-color: #98f798;
+    border: 1px solid;
+    width: 90px;
+    height: 33px;
+    border-radius: 11px;
+    margin-left: 8px;
+    cursor: pointer;
+    margin: 0px 0px 12px 7px;
+}
+.busqueda button .nuevo{
+    font-size: 50px;
+    
+}
+
+.busqueda input{
+    padding: 0.25em;
+}
+.busqueda{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.tablas{
+    box-shadow: 0px 1px 20px 1px rgba(0,0,0,0.75);
+}
+
+.filas{
+    background-color: #d7f9c5;
+}
+
+.tabla-en{
+    background-color: #bde5bd;
+}
+
+.campos {
+    padding: .25em;
+    outline: none;
+    font-size: 1rem;
+    background-color: #e3e3f5;
+    border: 1px solid #000;
+}
+
+.modal {
+    display: flex;
+    position: absolute;
+    z-index: 3;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 100%;
+    flex-direction: column;
+    padding: 1em;
+    background-color: rgba(0,0,0,.5);
+    justify-content: center;
+    align-items: center;
+    row-gap: 1em;
+}
+
+.form{
+    padding: 1em;
+    border-radius: 20px;
+    background-color: #d7f9c5;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1em;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,7 +1,0 @@
-2023/10/04 14:14:54	fd408f74-19bf-453c-bdda-1e4c5f50582d	OPTIONS	http://localhost:3000	/api/inicioSesion
-2023/10/04 14:14:54	45a6752a-6a2b-4737-abd4-498744da7b1e	POST	http://localhost:3000	/api/inicioSesion
-2023/10/04 14:14:59	69c4b24f-5ccb-4675-9116-03159d28e384	POST	http://localhost:3000	/api/inicioSesion
-2023/10/04 14:22:24	5d1b876d-0d14-4507-a194-1203a6d11e26	OPTIONS	http://localhost:3000	/api/inicioSesion
-2023/10/04 14:22:24	8645e9aa-6da2-4f25-8671-cdea0c31e29c	POST	http://localhost:3000	/api/inicioSesion
-2023/10/04 14:25:21	d457874f-62b1-4d8e-97e7-ed1994a0db3f	OPTIONS	http://localhost:3000	/api/inicioSesion
-2023/10/04 14:25:21	b2831c7c-db0c-4b54-84bb-c7ef02e900fa	POST	http://localhost:3000	/api/inicioSesion
